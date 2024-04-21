@@ -1,0 +1,57 @@
+@media screen and (max-width: 1000px) {
+    .journey-photos img{
+        border-radius: 1rem 4rem;
+    }
+    .early-life-des{
+        width: 59%;
+    }
+    .early-life-img{
+        width: 39%;
+    }
+    .early-life-img img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .journey-photos img{
+        border-radius: 0.4rem 2rem;
+    }
+    .early-life{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .early-life-des{
+        width: 100%;
+    }
+    .early-life-img{
+        width: 80%;
+    }
+    .early-life-img img{
+        width: 100%;
+        margin: 2rem 0rem;
+    }
+    .intro{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .intro-img{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .intro-dec{
+        width: 100%;
+    }
+    .major-facts-section ul li{
+        word-spacing: normal;
+        letter-spacing: normal;
+        line-height: 1.9rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 325px){
+    .head-section{
+        font-size: 1.5rem;
+    }
+}

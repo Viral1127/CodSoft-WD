@@ -1,0 +1,138 @@
+:root{
+    --primary: #fffde5;
+    --secondary: #ffdc96;
+    --orange: #f58634;
+
+    --black: rgb(0, 0, 0, 0.8);
+    --white: white;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#main-contain{
+    width: 100%;
+    background-color: var(--primary);
+}
+
+.headder{
+    position: relative;
+    width: 100%;
+}
+
+.headder img{
+    width: 100%;
+}
+
+.head-section{
+    width: 80%;
+    margin: 5rem auto 2rem auto;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.head-section span{
+    color: var(--orange);
+    font-size: 1rem;
+}
+.early-life{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh auto;
+}
+
+.early-life-des{
+    width: 40%;
+    background-color: var(--orange);
+    padding: 0rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 18px var(--black);
+}
+
+.early-life-des h6{
+    font-size: 1rem;
+    color: white;
+    font-weight: normal;
+    margin: 1.5rem 0px;
+    font-family: sans-serif;
+}
+
+.early-life-des b{
+    font-weight: bolder;
+}
+.early-life-img{
+    width: 50%;
+}
+
+.early-life-img img{
+    width: 90%;
+    border-radius: 5rem 1rem;
+}
+
+.intro{
+    width: 80%;
+    display: flex;
+    margin: 5vh auto;
+    justify-content: space-between;
+}
+.intro-img{
+    width: 29%;
+}
+.intro-img img{
+    width: 100%;
+}
+.intro-dec{
+    width: 69%;
+    background-color: var(--white);
+    box-shadow: 0px 0px 18px rgb(0, 0, 0, 0.3);
+    padding: 0rem 3rem;
+}
+
+.intro-dec p{
+    margin: 3rem 0rem;
+    color: rgb(110, 110, 110);
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-family: sans-serif;
+}
+
+.journey-photos{
+    width: 100%;
+    display: grid;
+    grid-template-columns:auto 35% 35% auto;
+}
+
+.journey-photos img{
+    width: 100%;
+    border-radius: 2rem 10rem;
+    box-shadow: 0px 0px 18px var(--black);
+}
+
+.major-facts-section{
+    width: 80%;
+    margin: 2rem auto 6rem auto;
+    background-color: var(--white);
+    box-shadow: 0px 0px 18px rgb(0, 0, 0, 0.3);
+    padding: 2rem;
+}
+
+.major-facts-section ul li{
+    color: rgb(110, 110, 110);
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-family: sans-serif;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.end-section{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--black);
+    color: var(--white);
+}
